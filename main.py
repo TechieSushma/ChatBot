@@ -13,7 +13,6 @@ import warnings
 warnings.filterwarnings('ignore')
 text_contents=dict()
 nltk.download('punkt',quiet=True)
-#arc=Article('https://developer.ibm.com/languages/python/articles/introduction-to-machine-learning/')
 arc=Article('https://techiesushmayadav.blogspot.com/2022/02/introduction-to-machine-learning.html')
 arc.download()
 arc.parse()
